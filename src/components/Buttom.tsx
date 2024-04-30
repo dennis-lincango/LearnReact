@@ -10,7 +10,7 @@ const Button: React.FC = () => {
 
     return (
         <button className={clicked ? 'button clicked' : 'button'} onClick={handleClick}>
-            Click me!
+            Login
         </button>
     );
 };
